@@ -77,3 +77,50 @@ compile_commands.json
 
 #build folders
 build-GUI-Desktop_Qt_6_4_2_MSVC2019_64bit-Debug/
+
+*~
+*.core
+*.o
+*.orig
+*.rej
+*_pch.h.cpp
+*_resource.rc
+.#*
+*.*#
+core
+!core/
+tags
+.DS_Store
+.directory
+*.debug
+Thumbs.db
+*.res
+*.rc
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
